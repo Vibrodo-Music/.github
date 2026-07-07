@@ -1,0 +1,32 @@
+name: Welcome New Contributor
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            const creator = context.payload.sender.login;
+            const message = `👋 Hey @${creator}!\n\nWelcome to the **Vibrodo Ecosystem**! 🎵\n\nThank you for opening this. Our core team will review this shortly. In the meantime, make sure you have read our [Contributing Guidelines](https://github.com/Vibrodo-Music/.github/blob/main/CONTRIBUTING.md).\n\n*Let's build the future of audio together!* 🚀`;
+            
+            if (context.eventName === 'issues') {
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: message
+              });
+            } else if (context.eventName === 'pull_request_target') {
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: message
+              });
+            }
