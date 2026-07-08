@@ -1,7 +1,7 @@
 <div align="center">
 
 <br/>
-<img width="140" height="140" alt="Vibrodo_logo_new" src="https://github.com/user-attachments/assets/64692fda-2b58-4ad9-b4a1-12b2d55ff6c0" />
+<img width="120" height="120" alt="Vibrodo_logo" src="Vibrodo_logo.png" />
 
 ### VIBRODO
 
