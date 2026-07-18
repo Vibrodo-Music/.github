@@ -158,50 +158,41 @@ The core streaming engine — auth pipeline, data layer, and API surface serving
 
 ---
 
-## ◈ &nbsp;05 &nbsp;— &nbsp;Contribution
+## ◈ &nbsp;05 &nbsp;— &nbsp;Internal Engineering & Strategy
 
 <br/>
 
-We build with a small group of engineers who treat correctness and speed as inseparable. If you optimize for both — we want to see your PRs.
+Vibrodo operates as a proprietary infrastructure ecosystem. Source code access is strictly restricted to core maintainers and authorized engineers.
 
-**Start here:**
-
-```bash
-1. Fork vibrodo-backend
-2. Read CONTRIBUTING.md
-3. Ship something that meets the bar
-```
+**Core Execution Tracks (Q3/Q4 2026):**
+*   **Closed Beta Gatekeeping:** Establishing high-throughput proxy structures for external sandbox streaming.
+*   **Mentorship & Collaboration:** For enterprise evaluation (GSoC/LFX mapping), microservice architectures are demonstrated via high-fidelity architecture specs and sandboxed mock APIs rather than public source execution.
 
 <details>
-<summary><strong>&nbsp;▶ &nbsp;Contribution Standards &nbsp;—&nbsp; Click to expand</strong></summary>
+<summary><strong>&nbsp;▶ &nbsp;Enterprise Engineering Access &nbsp;—&nbsp; Click to expand</strong></summary>
 
 <br/>
 
-- All PRs require passing CI and test coverage on touched paths
-- Latency-sensitive changes must include benchmark deltas
-- Security-relevant changes require a second reviewer
+- Contributions are strictly restricted to vetted internal branch pipelines.
+- Direct external PR requests are auto-blocked by default organizational IAM policies.
+- Architectural evaluation can be scheduled via secure preview channels.
 
 </details>
-
-<br/>
 
 ---
 
 <br/>
 
+<p align="center">
+  <sub>Two people building infrastructure designed for millions. Every line of code in this organization is a long-term commitment.
+
+</sub>
+</p>
+
+<p align="center">
+  <code>VIBRODO ENGINEERING // SYSTEM STATUS: CLOSED-BETA</code>
+</p>
+
 <div align="center">
-
-*Two people building infrastructure designed for millions.*
-*Every line of code in this organization is a long-term commitment.*
-
-<br/>
-
-
-```
-─────────────────────────────────────────────────────────────
-  VIBRODO ENGINEERING  ·  PRIVATE REPOSITORY
-  © 2026 Vibrodo, Inc.  ·  All rights reserved.
-─────────────────────────────────────────────────────────────
-```
-
+  <sub>&copy; 2026 Vibrodo, Inc. All rights reserved. V-1.0.0-PROPRIETARY</sub>
 </div>
